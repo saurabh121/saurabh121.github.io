@@ -53,7 +53,10 @@ p{ margin:.6rem 0 1rem; }
 .link:hover{ text-decoration:underline; }
 
 .sr-only{ position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0; }
-
+/* Hero heading white */
+.hero h1 {
+  color: #ffffff;
+}
 /* ===== Topbar ===== */
 .topbar{
   display:flex; align-items:center; justify-content:space-between;
@@ -222,6 +225,3 @@ p{ margin:.6rem 0 1rem; }
   .footer{ background:#0d1020; border-color:#1e2238; }
   .foot-brand .brand{ color:#fff; }
 }
-
-
-
