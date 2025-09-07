@@ -46,7 +46,7 @@
   <section class="about container" id="about" aria-label="About Saurabh Sharma">
     <div class="about-card">
       <div class="about-text">
-        <h2>About Saurabh Sharma</h2>
+        <h5>About Saurabh Sharma</h5>
         <p>
           Welcome to my creative space! I’m a passionate VFX artist and 3D rigging specialist with years of experience in the film and gaming industry.
           This platform serves as a hub where I share my technical expertise, artistic insights, and latest projects.
@@ -63,8 +63,7 @@
       </div>
 
       <div class="about-photo">
-        <!-- You can replace the src with your photo -->
-        <img src="https://saurabh121.github.io/images/search-image.jpg?q=80&w=1200&auto=format&fit=crop" alt="Saurabh smiling in studio" />
+        <img src="/images/profilePicThumb.jpg?q=80&w=1200&auto=format&fit=crop" alt="Saurabh smiling in studio" />
       </div>
     </div>
   </section>
@@ -75,134 +74,332 @@
       <header class="section-head">
         <h2>Featured Work</h2>
         <p>
-          Explore my latest projects, tutorials, and insights shared through video content. Each piece
-          represents a journey of creativity and technical excellence.
+          Explore my latest projects, tutorials, and insights shared through video content.
+          Each piece represents a journey of creativity and technical excellence.
         </p>
       </header>
 
-      <div class="card-grid">
-        <!-- Card 1 -->
-        <article class="card">
-          <div class="card-media thumb1">
-            <button class="play" aria-label="Play">
-              <i class="fa-solid fa-play"></i>
-            </button>
-          </div>
-          <div class="card-body">
-            <h3>Advanced Character Rigging Techniques</h3>
-            <p>
-              Deep dive into professional character rigging workflows, covering bone structures, constraints,
-              and animation controls for production-ready characters.
-            </p>
-            <div class="meta">
-              <span>12 min read</span>
-              <a href="#" class="link">Watch Now</a>
-            </div>
-          </div>
-        </article>
+    <!-- Grid (put ALL your cards inside this .card-grid) -->
+    <div class="card-grid" id="cardGrid">
 
-        <!-- Card 2 -->
-        <article class="card">
-          <div class="card-media thumb2">
-            <button class="play" aria-label="Play">
-              <i class="fa-solid fa-play"></i>
-            </button>
-          </div>
-          <div class="card-body">
-            <h3>VFX Compositing Masterclass</h3>
-            <p>
-              Learn professional compositing techniques used in major film productions. From color grading to
-              particle effects integration and final rendering.
-            </p>
-            <div class="meta">
-              <span>20 min read</span>
-              <a href="#" class="link">Watch Now</a>
-            </div>
-          </div>
-        </article>
 
-        <!-- Card 3 -->
-        <article class="card">
-          <div class="card-media thumb3">
-            <button class="play" aria-label="Play">
-              <i class="fa-solid fa-play"></i>
-            </button>
-          </div>
-          <div class="card-body">
-            <h3>Animation Workflow Optimization</h3>
-            <p>
-              Discover industry-standard animation workflows that will speed up your production pipeline
-              and improve the quality of your character animations.
-            </p>
-            <div class="meta">
-              <span>15 min read</span>
-              <a href="#" class="link">Watch Now</a>
-            </div>
-          </div>
-        </article>
 
-        <!-- Card 4 -->
-        <article class="card">
-          <div class="card-media thumb4">
-            <button class="play" aria-label="Play">
-              <i class="fa-solid fa-play"></i>
-            </button>
-          </div>
-          <div class="card-body">
-            <h3>Cinematic Lighting &amp; Rendering</h3>
-            <p>
-              Master the art of lighting and rendering to create stunning visuals. Learn how to achieve
-              photorealistic results with proper lighting setups and material properties.
-            </p>
-            <div class="meta">
-              <span>18 min read</span>
-              <a href="#" class="link">Watch Now</a>
-            </div>
-          </div>
-        </article>
 
-        <!-- Card 5 -->
-        <article class="card">
-          <div class="card-media thumb5">
-            <button class="play" aria-label="Play">
-              <i class="fa-solid fa-play"></i>
-            </button>
-          </div>
-          <div class="card-body">
-            <h3>Maya Scripting for Artists</h3>
-            <p>
-              Automate your workflow with custom Maya scripts, learn Python and MEL scripting to create tools
-              that will save you hours of repetitive work.
-            </p>
-            <div class="meta">
-              <span>25 min read</span>
-              <a href="#" class="link">Watch Now</a>
+          <!-- Card 1 -->
+          <article class="card">
+            <div class="card-media">
+              <img src="https://img.youtube.com/vi/frg9PEhHU0w/hqdefault.jpg"
+                  alt="Shape transfer tool example thumbnail">
+              <button class="play" aria-label="Play"
+                data-video="https://www.youtube.com/embed/frg9PEhHU0w?si=hx8Q0T1dWdLf_xvn">
+                <i class="fa-solid fa-play"></i>
+              </button>
             </div>
-          </div>
-        </article>
+            <div class="card-body">
+              <h3>Shape transfer tool example</h3>
+              <p>I’m demonstrating a robust Maya Python solution created to handle the extraction
+                 and transfer of blend shape targets between multiple geometries with ease.
+              </p>
+              <div class="meta">
+                <span></span>
+                <a href="#" class="link video-link"
+                  data-video="https://www.youtube.com/embed/frg9PEhHU0w?si=hx8Q0T1dWdLf_xvn">Watch Now</a>
+              </div>
+            </div>
+          </article>
 
-        <!-- Card 6 -->
-        <article class="card">
-          <div class="card-media thumb6">
-            <button class="play" aria-label="Play">
-              <i class="fa-solid fa-play"></i>
-            </button>
-          </div>
-          <div class="card-body">
-            <h3>Industry Insights &amp; Career Tips</h3>
-            <p>
-              Get insider knowledge about the VFX industry, career advice, and tips for breaking into major
-              studios. Learn what it takes to succeed in this competitive field.
-            </p>
-            <div class="meta">
-              <span>16 min read</span>
-              <a href="#" class="link">Watch Now</a>
+          <!-- Card 2 -->
+          <article class="card">
+            <div class="card-media">
+              <img src="https://img.youtube.com/vi/S81r9_KILBE/hqdefault.jpg"
+                  alt="BlendShape Transfer Demo thumbnail">
+              <button class="play" aria-label="Play"
+                data-video="https://www.youtube.com/embed/S81r9_KILBE?si=hx8Q0T1dWdLf_xvn">
+                <i class="fa-solid fa-play"></i>
+              </button>
             </div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
+            <div class="card-body">
+              <h3>BlendShape Transfer Demo</h3>
+              <p>In this video, I showcase a powerful custom Maya Python tool, designed to automate blend shape
+                target extraction and transfer between geometries.
+              </p>
+              <div class="meta">
+                <span></span>
+                <a href="#" class="link video-link"
+                  data-video="https://www.youtube.com/embed/S81r9_KILBE?si=hx8Q0T1dWdLf_xvn">Watch Now</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card">
+            <div class="card-media">
+              <img src="https://img.youtube.com/vi/PFBZvAj3ojs/hqdefault.jpg"
+                  alt="VFX Rigging Showreel thumbnail">
+              <button class="play" aria-label="Play"
+                data-video="https://www.youtube.com/embed/PFBZvAj3ojs?si=hx8Q0T1dWdLf_xvn">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+            <div class="card-body">
+              <h3>VFX Rigging Showreel</h3>
+              <p>This is a dynamic VFX rigging showreel from 2023 to 2025, spotlighting two standout creations.</p>
+              <div class="meta">
+                <span></span>
+                <a href="#" class="link video-link"
+                  data-video="https://www.youtube.com/embed/PFBZvAj3ojs?si=hx8Q0T1dWdLf_xvn">Watch Now</a>
+              </div>
+            </div>
+          </article>
+
+
+          <!-- Card 4 (Vimeo) -->
+          <article class="card">
+            <div class="card-media" data-vimeo-id="393176994">
+              <img class="vimeo-thumb" src="" alt="Rig setup control resize thumbnail">
+              <button class="play" aria-label="Play"
+                data-video="https://player.vimeo.com/video/393176994">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+            <div class="card-body">
+              <h3>Rig setup control resize</h3>
+              <p>Sometimes we need to re-build rig setup, and with that we need to resize controls also, but now i can save time for re-scale of controls.
+              </p>
+              <div class="meta">
+                <span></span>
+                <a href="#" class="link video-link"
+                  data-video="https://player.vimeo.com/video/393176994">Watch Now</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5 (Vimeo) -->
+          <article class="card">
+            <div class="card-media" data-vimeo-id="348052146">
+              <img class="vimeo-thumb" src="" alt="Control maker and shape changer tool thumbnail">
+              <button class="play" aria-label="Play"
+                data-video="https://player.vimeo.com/video/348052146">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+            <div class="card-body">
+              <h3>Control maker and shape changer tool</h3>
+              <p>A Maya Python tool to create size-based controls and replace existing control shapes accordingly. Download python code:
+                <a href="https://github.com/saurabh121/ctrl_as_per_object_in_maya" target="_blank" rel="noopener">GitHub repo</a>.
+              </p>
+              <div class="meta">
+                <span></span>
+                <a href="#" class="link video-link"
+                  data-video="https://player.vimeo.com/video/348052146">Watch Now</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6 (Vimeo) -->
+          <article class="card">
+            <div class="card-media" data-vimeo-id="349228882">
+              <img class="vimeo-thumb" src="" alt="Control maker in Maya python thumbnail">
+              <button class="play" aria-label="Play"
+                data-video="https://player.vimeo.com/video/349228882">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+            <div class="card-body">
+              <h3>Control maker in Maya python</h3>
+              <p>This is a Maya Python script I created. It can create a new control as per object size and replace
+                the old control shape as per size. Download python code:
+                <a href="https://github.com/saurabh121/ctrl_as_per_object_in_maya" target="_blank" rel="noopener">GitHub repo</a>.
+              </p>
+              <div class="meta">
+                <span></span>
+                <a href="#" class="link video-link"
+                  data-video="https://player.vimeo.com/video/349228882">Watch Now</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 7 (Vimeo) -->
+          <article class="card">
+            <div class="card-media" data-vimeo-id="177451535">
+              <img class="vimeo-thumb" src="" alt="Quadruped mel script thumbnail">
+              <button class="play" aria-label="Play"
+                data-video="https://player.vimeo.com/video/177451535">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+            <div class="card-body">
+              <h3>Quadruped mel script</h3>
+              <p>Quadruped MEL script in Maya software.</p>
+              <div class="meta">
+                <span></span>
+                <a href="#" class="link video-link"
+                  data-video="https://player.vimeo.com/video/177451535">Watch Now</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 8 -->
+          <article class="card">
+            <div class="card-media">
+              <img src="https://img.youtube.com/vi/oA0avIN-6FU/hqdefault.jpg"
+                  alt="Spinerman Gamgam Animation thumbnail">
+              <button class="play" aria-label="Play"
+                data-video="https://www.youtube.com/embed/oA0avIN-6FU?si=hx8Q0T1dWdLf_xvn">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+            <div class="card-body">
+              <h3>Spinerman Gamgam Animation</h3>
+              <p>Spider Man is dancing in Gangnam style (mocap on custom rig).</p>
+              <div class="meta">
+                <span></span>
+                <a href="#" class="link video-link"
+                  data-video="https://www.youtube.com/embed/oA0avIN-6FU?si=hx8Q0T1dWdLf_xvn">Watch Now</a>
+              </div>
+            </div>
+          </article>
+
+
+
+          <!-- Card 9 Vimeo -->
+          <article class="card">
+            <div class="card-media" data-vimeo-id="123496560">
+              <img class="vimeo-thumb" src="" alt="Shader Transfer from one object to another object thumbnail">
+              <button class="play" aria-label="Play"
+                data-video="https://player.vimeo.com/video/123496560">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+            <div class="card-body">
+              <h3>Shader Transfer from one object to another object</h3>
+              <p>many time in production we face shader transfer problem. this is easy way to transfer shader from object to object. 
+                here you can download script </p>
+                <a href="https://www.creativecrash.com/maya/script/shader-transfer" target="_blank" rel="noopener">creativecrash</a>
+              <div class="meta">
+                <span></span>
+                <a href="#" class="link video-link"
+                  data-video="https://player.vimeo.com/video/123496560">Watch Now</a>
+              </div>
+            </div>
+          </article>
+
+
+
+
+
+
+
+
+
+
+
+          <!-- Card 10 -->
+          <article class="card">
+            <div class="card-media">
+              <img src="https://img.youtube.com/vi/78UYrP4Q0ww/hqdefault.jpg"
+                  alt="Spiderman Samba Dance thumbnail">
+              <button class="play" aria-label="Play"
+                data-video="https://www.youtube.com/embed/78UYrP4Q0ww?si=hx8Q0T1dWdLf_xvn">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+            <div class="card-body">
+              <h3>Spiderman Samba Dance</h3>
+              <p>Spider Man is dancing in Samba style (mocap on custom rig).</p>
+              <div class="meta">
+                <span></span>
+                <a href="#" class="link video-link"
+                  data-video="https://www.youtube.com/embed/78UYrP4Q0ww?si=hx8Q0T1dWdLf_xvn">Watch Now</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 11 Vimeo -->
+          <article class="card">
+            <div class="card-media" data-vimeo-id="81368482">
+              <img class="vimeo-thumb" src="" alt="AutoRig in maya thumbnail">
+              <button class="play" aria-label="Play"
+                data-video="https://player.vimeo.com/video/81368482">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+            <div class="card-body">
+              <h3>AutoRig in maya</h3>
+              <p> biped auto rigging script in maya </p>
+              <div class="meta">
+                <span></span>
+                <a href="#" class="link video-link"
+                  data-video="https://player.vimeo.com/video/81368482">Watch Now</a>
+              </div>
+            </div>
+          </article>
+
+
+
+
+
+          <!-- Card 12 -->
+          <article class="card">
+            <div class="card-media">
+              <img src="https://img.youtube.com/vi/5YvctwJpS3k/hqdefault.jpg"
+                  alt="Show Reel 2012 thumbnail">
+              <button class="play" aria-label="Play"
+                data-video="https://www.youtube.com/embed/5YvctwJpS3k?si=hx8Q0T1dWdLf_xvn">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+            <div class="card-body">
+              <h3>Show Reel 2012</h3>
+              <p></p>
+              <div class="meta">
+                <span></span>
+                <a href="#" class="link video-link"
+                  data-video="https://www.youtube.com/embed/5YvctwJpS3k?si=hx8Q0T1dWdLf_xvn">Watch Now</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 13 Vimeo -->
+          <article class="card">
+            <div class="card-media" data-vimeo-id="81679191">
+              <img class="vimeo-thumb" src="" alt="FK IK Mel Script thumbnail">
+              <button class="play" aria-label="Play"
+                data-video="https://player.vimeo.com/video/81679191">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+            <div class="card-body">
+              <h3>FK IK Mel Script</h3>
+              <p>Fk IK Tool created in mel. uniform mel script for fk ik arm and leg.</p>
+              <div class="meta">
+                <span></span>
+                <a href="#" class="link video-link"
+                  data-video="https://player.vimeo.com/video/81679191">Watch Now</a>
+              </div>
+            </div>
+          </article>
+
+
+
+        </div>
+
+
+</div>
+
+
+    <!-- Pagination controls -->
+    <nav class="pager" aria-label="Featured pagination">
+      <button class="btn btn-ghost pager-btn" id="prevPage" disabled>
+        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>&nbsp;Prev
+      </button>
+      <span class="pager-info" id="pageInfo">Page 1 of 1</span>
+      <button class="btn btn-primary pager-btn" id="nextPage">
+        Next&nbsp;<i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+      </button>
+    </nav>
+  </div>
+</section>
 
   <!-- ===== SECTION 3: CONTACT + FOOTER ===== -->
   <section class="contact" id="contact" aria-label="Contact and Footer">
@@ -221,12 +418,12 @@
         </ul>
 
         <div class="socials">
-          <a aria-label="YouTube" href="https://www.youtube.com/saurabhanimator"><i class="fa-brands fa-youtube"></i></a>
-          <a aria-label="Vimeo" href="#"><i class="fa-brands fa-vimeo"></i></a>
-          <a aria-label="Instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a aria-label="LinkedIn" href="https://www.linkedin.com/in/saurabhanimator/"><i class="fa-brands fa-linkedin"></i></a>
-          <a aria-label="ArtStation" href="#"><i class="fa-brands fa-artstation"></i></a>
-          <a aria-label="Behance" href="#"><i class="fa-brands fa-behance"></i></a>
+          <a aria-label="YouTube" href="https://www.youtube.com/saurabhanimator" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+          <a aria-label="Vimeo" href="https://vimeo.com/saurabhanimator" target="_blank" rel="noopener"><i class="fa-brands fa-vimeo"></i></a>
+          <a aria-label="Instagram" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+          <a aria-label="LinkedIn" href="https://www.linkedin.com/in/saurabhanimator/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+          <a aria-label="ArtStation" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-artstation"></i></a>
+          <a aria-label="Behance" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-behance"></i></a>
         </div>
       </div>
 
@@ -253,10 +450,10 @@
           <a class="brand" href="#">Saurabh</a>
           <p>Passionate VFX artist sharing knowledge and inspiring creativity in the CG industry.</p>
           <div class="foot-socials">
-            <a aria-label="YouTube" href="https://www.youtube.com/saurabhanimator"><i class="fa-brands fa-youtube"></i></a>
-            <a aria-label="Instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a aria-label="LinkedIn" href="https://www.linkedin.com/in/saurabhanimator/"><i class="fa-brands fa-linkedin"></i></a>
-            <a aria-label="GitHub" href="https://github.com/saurabh121"><i class="fa-brands fa-github"></i></a>
+            <a aria-label="YouTube" href="https://www.youtube.com/saurabhanimator" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+            <a aria-label="Instagram" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+            <a aria-label="LinkedIn" href="https://www.linkedin.com/in/saurabhanimator/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+            <a aria-label="GitHub" href="https://github.com/saurabh121" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
           </div>
         </div>
 
@@ -286,9 +483,177 @@
     </footer>
   </section>
 
+  <!-- Single Video Modal -->
+  <div class="video-modal" id="videoModal" style="display:none;">
+    <div class="video-content">
+      <span class="video-close" id="videoClose">&times;</span>
+      <iframe id="videoFrame" src="" frameborder="0"
+        allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
   <script>
-    // set year
+    // Year
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // ===== Helpers =====
+    function withAutoplay(url) {
+      if (!url) return "";
+      return url.includes("?") ? url + "&autoplay=1" : url + "?autoplay=1";
+    }
+
+    // ===== Modal wiring =====
+    const modal = document.getElementById("videoModal");
+    const videoFrame = document.getElementById("videoFrame");
+    const closeBtn = document.getElementById("videoClose");
+
+    function openVideo(url) {
+      videoFrame.src = withAutoplay(url);
+      modal.style.display = "flex";
+    }
+    function closeVideo() {
+      modal.style.display = "none";
+      videoFrame.src = ""; // stop playback
+    }
+
+    // Open modal (works for .play button and .video-link)
+    document.querySelectorAll(".play, .video-link").forEach(el => {
+      el.addEventListener("click", e => {
+        e.preventDefault();
+        const url = el.getAttribute("data-video");
+        if (url) openVideo(url);
+      });
+    });
+
+    // Close modal
+    if (closeBtn) closeBtn.addEventListener("click", closeVideo);
+    if (modal) {
+      modal.addEventListener("click", e => {
+        if (e.target === modal) closeVideo();
+      });
+    }
+
+    // ===== Vimeo thumbnail auto-loader =====
+    async function loadVimeoThumb(container) {
+      const id = container.getAttribute("data-vimeo-id");
+      const img = container.querySelector(".vimeo-thumb");
+      if (!id || !img) return;
+
+      try {
+        const res = await fetch(`https://vimeo.com/api/oembed.json?url=https://vimeo.com/${id}`);
+        if (!res.ok) throw new Error("oEmbed fetch failed");
+        const data = await res.json();
+
+        let thumb = data.thumbnail_url || "";
+        if (thumb) {
+          img.src = thumb;
+          img.alt = data.title ? `${data.title} thumbnail` : img.alt;
+          return;
+        }
+        throw new Error("No thumbnail in oEmbed");
+      } catch (err) {
+        // Fallback: nice gradient if thumb not available
+        img.remove();
+        container.style.background =
+          "linear-gradient(0deg, rgba(0,0,0,.25), rgba(0,0,0,.10)), linear-gradient(135deg, #2A9D8F 0%, #264653 100%)";
+      }
+    }
+    document.querySelectorAll(".card-media[data-vimeo-id]").forEach(loadVimeoThumb);
+
+    // ===== Carousel (arrows show only if needed) =====
+    const cardGrid = document.getElementById("cardGrid");
+    const leftArrow = document.getElementById("leftArrow");
+    const rightArrow = document.getElementById("rightArrow");
+    const scrollAmount = 320; // card width + gap
+
+    function checkArrows() {
+      // hide if content fits
+      const canScroll = cardGrid.scrollWidth > cardGrid.clientWidth + 4;
+      leftArrow.style.display = canScroll && cardGrid.scrollLeft > 0 ? "grid" : "none";
+      rightArrow.style.display =
+        canScroll &&
+        (cardGrid.scrollLeft + cardGrid.clientWidth < cardGrid.scrollWidth - 1)
+          ? "grid"
+          : "none";
+    }
+
+    leftArrow.addEventListener("click", () => {
+      cardGrid.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+    });
+    rightArrow.addEventListener("click", () => {
+      cardGrid.scrollBy({ left: scrollAmount, behavior: "smooth" });
+    });
+
+    cardGrid.addEventListener("scroll", checkArrows);
+    window.addEventListener("resize", checkArrows);
+    document.addEventListener("DOMContentLoaded", checkArrows);
+    // Run once after thumbs load (for Vimeo fetch async)
+    window.addEventListener("load", checkArrows);
   </script>
+  <script>
+(function(){
+  const grid = document.getElementById('cardGrid');
+  if(!grid) return;
+
+  const cards = Array.from(grid.querySelectorAll('.card'));
+  const pageSize = 6;
+  let page = 1;
+  const pageInfo = document.getElementById('pageInfo');
+  const prevBtn = document.getElementById('prevPage');
+  const nextBtn = document.getElementById('nextPage');
+
+  function totalPages(){
+    return Math.max(1, Math.ceil(cards.length / pageSize));
+  }
+
+  function render(){
+    const start = (page - 1) * pageSize;
+    const end = start + pageSize;
+
+    cards.forEach((card, idx) => {
+      const visible = idx >= start && idx < end;
+      card.style.display = visible ? 'flex' : 'none'; // card is a flex column
+    });
+
+    // Update controls
+    const pages = totalPages();
+    pageInfo.textContent = `Page ${page} of ${pages}`;
+    prevBtn.disabled = page <= 1;
+    nextBtn.disabled = page >= pages;
+
+    // If only one page or <= 6 items, hide the whole pager
+    document.querySelector('.pager').style.display = (pages > 1) ? 'flex' : 'none';
+  }
+
+  function goTo(p){
+    const pages = totalPages();
+    page = Math.min(Math.max(1, p), pages);
+    render();
+
+    // Scroll the section into view (nice UX when changing pages)
+    const section = document.getElementById('work');
+    if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // Wire buttons
+  prevBtn.addEventListener('click', () => goTo(page - 1));
+  nextBtn.addEventListener('click', () => goTo(page + 1));
+
+  // Keyboard support: left/right arrows when pager is focused
+  document.querySelector('.pager').addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft' && !prevBtn.disabled) goTo(page - 1);
+    if (e.key === 'ArrowRight' && !nextBtn.disabled) goTo(page + 1);
+  });
+
+  // Initial render
+  render();
+
+  // If you dynamically add/remove cards later, call render() again.
+})();
+</script>
+
+  
+  
+  
 </body>
 </html>
